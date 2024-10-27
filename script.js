@@ -160,7 +160,7 @@ checkoutBtn.addEventListener("click", function(){
     // Enviar pedido para API WhatsAPP
     const cartItems = cart.map((item) => {
         return (
-            ` \n${item.name} \nQuantidade: (${item.quantity}) \nPreço: R$: ${item.price}\n`
+            `${item.name} \nQuantidade: (${item.quantity}) \nPreço: R$: ${item.price}\n`
 
         )
     }).join("")
